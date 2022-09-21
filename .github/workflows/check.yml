@@ -12,4 +12,4 @@ jobs:
     - name: Install dependencies
       run: pip install numpy pytest black
     - name: Run tests
-      run: py.test
+      run: py.test -v foo.py
